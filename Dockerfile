@@ -1,5 +1,5 @@
 # Perform the extraction in a separate builder container
-FROM eclipse-temurin:21-jre AS builder
+FROM eclipse-temurin:21 AS builder
 WORKDIR /builder
 # This points to the built jar file in the target folder
 ARG JAR_FILE=target/*.jar
