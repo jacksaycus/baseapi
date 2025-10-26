@@ -76,6 +76,12 @@
 <!--            <version>0.9.13-SNAPSHOT</version>-->
 <!--        </dependency>-->
         <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.7.7</version>
+        </dependency>
+
+        <dependency>
             <groupId>com.redis.om</groupId>
             <artifactId>redis-om-spring</artifactId>
             <version>1.0.4</version>
