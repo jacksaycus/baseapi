@@ -19,6 +19,11 @@ public class ProductController {
 
     private final IProductService iProductService;
 
+    @GetMapping("/")
+    public String getroot() { // DTO Pattern
+        return "hello world";
+    }
+
     @GetMapping("/table")
     public List<ProductDto> getProducts() { // DTO Pattern
         List<ProductDto> productList = iProductService.getProducts();
